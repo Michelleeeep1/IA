@@ -1,0 +1,42 @@
+body{
+	background-image: url("inteligencia-artificial.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: Arial, sans-serif;
+}
+        h1 {
+            text-align: center;
+            color: #f7f7f7cb;
+            margin-top: 20px;
+        }
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+            margin-top: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        li {
+            font-size: 18px;
+            color: #fffdfd;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .ai-image {
+            display: block;
+            margin: 0 auto; 
+            max-width: 100%;
+            height: auto;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+        }
